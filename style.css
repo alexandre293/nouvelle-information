@@ -8,23 +8,56 @@
     font-family: 'Montserrat', sans-serif;
     background-color: whitesmoke;
     height: 100vh;
+    text-align: center;
 }
-
 
 .header-title {
     font-size: 70px;
-
 }
 
-
-.title {
+.title-black {
+    position: relative;
     color: black;
+   top: 150px;
+   right: 20px;
+   z-index: 3;
 }
 
 .title-red {
+    position: relative;
     color: red;
+    opacity: 0.5;
+    top: 80px;
+    z-index: 2;
 }
 
 .title-blue {
+    position: relative;
     color: blue;
+    opacity: 0.5;
+    top: 20px;
+    left: 12px;
+    z-index: 1;
+}
+
+.header-btn {
+    display:block;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    width: 200px;      
+    height: 35px;   
+    line-height: 35px;                
+}
+
+.header-btn-red {
+    background-color: #F97B7B;
+    width: 200px;
+    height: 35px;
+}
+
+.header-btn-blue {
+    background-color: #7B7BF9;
+    width: 200px;
+    height: 35px;
 }
