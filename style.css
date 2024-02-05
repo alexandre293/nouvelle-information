@@ -18,26 +18,25 @@
 .title-black {
     position: relative;
     color: black;
-   top: 150px;
-   right: 20px;
-   z-index: 3;
+    top: 25%;
+    right: 2%;
+    z-index: 3;
 }
 
 .title-red {
     position: relative;
     color: red;
     opacity: 0.5;
-    top: 80px;
-    z-index: 2;
+    top: 70px;
+    z-index: 2; 
+    right: 1%;
 }
 
 .title-blue {
     position: relative;
     color: blue;
     opacity: 0.5;
-    top: 20px;
-    left: 12px;
-    z-index: 1;
+    z-index: 1; 
 }
 
 .header-btn {
@@ -47,17 +46,28 @@
     color: white;
     width: 200px;      
     height: 35px;   
-    line-height: 35px;                
+    line-height: 35px;        
+    position: relative;        
+    left: 42%;
+    top: 10%; 
+    z-index: 2;
+
 }
 
 .header-btn-red {
     background-color: #F97B7B;
     width: 200px;
     height: 35px;
+    position: relative;
+    left: 40%;
+    top: 2%;
+    z-index: 1;
 }
 
 .header-btn-blue {
     background-color: #7B7BF9;
     width: 200px;
     height: 35px;
+    position: relative;
+    left: 44%;
 }
