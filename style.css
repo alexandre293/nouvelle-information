@@ -21,6 +21,9 @@
     top: 25%;
     right: 2%;
     z-index: 3;
+    animation-name: jump;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
 }
 
 .title-red {
@@ -30,6 +33,10 @@
     top: 70px;
     z-index: 2; 
     right: 1%;
+    animation-name: jump;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
 }
 
 .title-blue {
@@ -37,6 +44,10 @@
     color: blue;
     opacity: 0.5;
     z-index: 1; 
+    animation-name: jump;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 .header-btn {
@@ -78,4 +89,17 @@
     position: relative;
     left: 44%;
     z-index: 1;
+}
+
+@keyframes jump {
+    0% {
+        transform: translate(0,0);
+    }
+    50% {
+        transform: translate(-20px,20px);
+    }
+    100%{
+        transform: translate(0,0);
+    }
+
 }
