@@ -91,6 +91,21 @@
     z-index: 1;
 }
 
+.go-up-btn { 
+    position: fixed;
+    bottom:30px;
+    right: 30px;
+    display: inline-block;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
 @keyframes jump {
     0% {
         transform: translate(0,0);
