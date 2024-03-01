@@ -106,6 +106,49 @@
     font-size: 15px;
 }
 
+.articles-container {
+    max-width: 100%;
+    padding: 30px;
+}
+
+.article {
+    font-family: 'Roboto',sans-serif;   
+    border: 2px solid black;
+    width: 60%;
+    margin: 20px auto;
+    margin-top: 100px;
+}
+
+.article-title {
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.article-category {
+    background-color: tomato;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.article-image {
+    width: 100%;
+    filter: brightness(1.1) opacity(0.9);
+}
+
+.article-text {
+    padding: 40px;
+    background-color: white;
+}
+
+
 @keyframes jump {
     0% {
         transform: translate(0,0);
